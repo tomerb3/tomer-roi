@@ -1,0 +1,1 @@
+docker run --rm -it -u nonroot -v $PWD/..:/home/nonroot/workspace sr/build-tools:latest
