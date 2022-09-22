@@ -1,4 +1,4 @@
-run like this:
+run like this: to work with  /home/nonroot/workspace/  inside container with none root user and mount 
 
 
 ./run1
