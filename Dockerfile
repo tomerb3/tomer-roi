@@ -21,7 +21,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
-RUN groupadd --gid 1001 nonroot \
+RUN groupadd --gid 1000 nonroot \
   # user needs a home folder to store credentials
   && useradd --gid nonroot --create-home --uid 1000 nonroot \
   && chown nonroot:nonroot /workspace && mkdir /home/nonroot/workspace
