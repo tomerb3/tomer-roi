@@ -1,4 +1,3 @@
-# tomer-roi
 run like this:
 
 
@@ -6,10 +5,13 @@ run like this:
 
 ./run2
 
-now inside the container press
-  cd
+now you are inside container with nonroot user, try to type these commands:
+
+
+cd
 
 cd workspace
+
 touch file-for-example
 
 
